@@ -34,7 +34,7 @@ def user_input_feature():
         return features
 inputDf = user_input_feature()
 
-dff = pd.read_csv('/home/linuxdev/coding/heart.csv')
+dff = pd.read_csv('https://github.com/GicharuGeofrey/Heartdisease-prediction/blob/main/heart.csv')
 df = dff.drop(['target'], axis =1 )
 
 
