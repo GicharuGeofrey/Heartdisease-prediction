@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 
 #load the csv using pandas
-csvData = pd.read_csv('/home/linuxdev/coding/heart.csv')
+csvData = pd.read_csv('https://github.com/GicharuGeofrey/Heartdisease-prediction/blob/main/heart.csv')
 csvData.head()
 
 csvData.dropna(inplace = True)
