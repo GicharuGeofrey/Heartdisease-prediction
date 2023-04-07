@@ -3,7 +3,6 @@ import numpy as np
 import pickle
 import streamlit as st
 
-from sklearn.linear_model import LogisticRegression
 
 st.write("""
 # Heart Disease Prediction App
