@@ -3,6 +3,11 @@ import numpy as np
 import pickle
 import streamlit as st
 
+st.set_page_config(
+   page_title="Heart Disease Prediction App",
+   layout="wide",
+   initial_sidebar_state="expanded",
+)
 
 st.write("""
 # Heart Disease Prediction App
